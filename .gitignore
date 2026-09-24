@@ -1,4 +1,25 @@
+# 가상환경
 .venv/
+venv/
+env/
+
+# 환경변수 / 비밀 정보 (절대 커밋 금지)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 로그 / 데이터 임시 파일
+*.log
+
+# OS / 에디터
 .DS_Store
+.vscode/
+.idea/
